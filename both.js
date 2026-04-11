@@ -4,7 +4,6 @@ function main() {
   document.addEventListener('keydown', (e) => {
     const video = document.querySelector('video');
     if (!video) return;
-    video.playbackRate = 1.0;
 
     // SHIFT KEYS
     if (e.shiftKey && e.key.toLowerCase() === 's') {
